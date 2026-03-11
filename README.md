@@ -9,7 +9,7 @@ Una simulación de una red social con funciones básicas orientado a POO
 
 ## Diagrama UML del sistema
 
-![Diagrama UML](RedSocialLineal.drawio)
+[Ver diagrama UML](RedSocialLineal.drawio)
 
 ## Estructura del proyecto
 
