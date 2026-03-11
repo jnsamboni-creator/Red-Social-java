@@ -36,17 +36,23 @@ public class Usuario {
     }
 
     public void seguir(Usuario u) {
+     if (u != null && !seguidos.contains(u) && u != this) {
         seguidos.add(u);
         u.seguidores.add(this);
+        }
     }
 
     public void dejarDeSeguir(Usuario u) {
+         if (u != null && seguidos.contains(u)) {
         seguidos.remove(u);
         u.seguidores.remove(this);
+        }
     }
 
     public void publicar(Publicacion nuevaPublicacion) {
+        if (nuevaPublicacion != null) {
         publicaciones.add(nuevaPublicacion);
+        }
     }
 
     public List<Publicacion> verFlujo() {

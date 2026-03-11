@@ -10,7 +10,9 @@ public class SistemaRedSocial {
     }
 
     public void registrarUsuario(Usuario u) {
+        if (u != null && !usuarios.contains(u)) {
         usuarios.add(u);
+        }
     }
 
     public Usuario buscarUsuario(int id) {
