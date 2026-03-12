@@ -21,4 +21,4 @@ Simulación de una red social con funciones básicas, utilizando Programación O
 - PublicacionVideo.java
 - FlujoContenido.java
 - SistemaRedSocial.java
-- main.java
+- Main.java
